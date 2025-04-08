@@ -61,8 +61,7 @@ $api_paths = array_map(
 
 echo json_encode($api_paths, JSON_FORCE_OBJECT | JSON_UNESCAPED_UNICODE);
 
-$expected_result =
-    [
+$expected_result = [
         '/api/items/20/John%20Dow',
         '/api/items/20/QA',
         '/api/items/20/100',
